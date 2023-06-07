@@ -1,3 +1,4 @@
+```
 %include 'library.asm'
 section .data
 	;arr dd 'u', 'd', 'd', 'u', 'u', 'd', 'd', 'u'
@@ -44,3 +45,4 @@ _start:
 	OUTPUT:
     	call print_number
     	call exit
+```
