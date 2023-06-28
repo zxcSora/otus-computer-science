@@ -12,12 +12,11 @@ int main() {
         scanf("%d", &current_guess);
         if (current_guess == num_to_guess) {
             printf("АНО!!\n");
-            break;
         } else {
             if (num_to_guess < current_guess) {
-                printf("Больше\n");
-            } else {
                 printf("Меньше\n");
+            } else {
+                printf("Больше\n");
             }
         }
     } while (current_guess != num_to_guess);
